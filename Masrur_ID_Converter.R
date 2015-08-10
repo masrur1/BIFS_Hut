@@ -1,4 +1,4 @@
-## Simple R code to convert platform IDs into appropriate ID (ie. Ensembl)
+## Simple R code to convert platform IDs into appropriate IDs (ie. Ensembl)
 ## Author: Masrur Alam
 ## Author's Email: masruralam.bio@gmail.com
 ## https://github.com/masrur1/BIFS_Hut.git
