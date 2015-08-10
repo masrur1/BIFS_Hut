@@ -26,7 +26,7 @@ ensembl_ID <- as.data.frame(getBM(attributes=c("affy_hg_u133a_2", "ensembl_gene_
 + header=TRUE, row.numbers=FALSE, na.rm=TRUE)
 
 #Add column names accordingly
-colnames(ensembl_ID) = c("ID_REF", "ensembl_gene_id", "mgi_symbol") 
+colnames(ensembl_ID) = c("ID_REF", "ensembl_gene_id", "hgnc_symbol") 
 
 #Join the ensembl_ID into the original data frame
 results_df <- join(import.data, ensembl_ID)
